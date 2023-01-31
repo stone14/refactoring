@@ -5,14 +5,15 @@ const port = 3000
 
 
 app.set('view engine', 'ejs');
+app.set("views", "./src/views")
+// app.set("views", "./app/src/views")
 app.set('views', path.join(__dirname, 'views'));
-app.set("views", "./views")
 
+const home = require('./src/routes/home')
 
-
-const home = require('./routes/home')
 app.use('/', home)
-// app.use('/login', home)
+
+
 
 
 
