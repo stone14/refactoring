@@ -1,0 +1,18 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin" : "start_server.js",
+  "scripts": {
+    "start" : "nodemon ./bin/start_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jun-il Shin",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
