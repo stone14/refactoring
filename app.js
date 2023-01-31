@@ -13,6 +13,7 @@ app.set("views", "./views")
 const home = require('./routes/home')
 app.use('/', home)
 // app.use('/login', home)
-app.listen(port, function () {
-    console.log('Start Server')
-})
+
+
+
+module.exports = app

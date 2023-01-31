@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce7cf767-31ab-45a3-b5cd-9f580ecf591e" name="Changes" comment="route 분리">
-      <change afterPath="$PROJECT_DIR$/routes/home/home.ctrl.js" afterDir="false" />
+    <list default="true" id="ce7cf767-31ab-45a3-b5cd-9f580ecf591e" name="Changes" comment="컨트롤러 분리">
+      <change afterPath="$PROJECT_DIR$/bin/start_server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675126910281</updated>
-      <workItem from="1675126911705" duration="7675000" />
+      <workItem from="1675126911705" duration="8764000" />
     </task>
     <task id="LOCAL-00001" summary="route 분리">
       <created>1675139343375</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675139352142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="컨트롤러 분리">
+      <created>1675140499163</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675140499163</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +131,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="route 분리" />
-    <option name="LAST_COMMIT_MESSAGE" value="route 분리" />
+    <MESSAGE value="컨트롤러 분리" />
+    <option name="LAST_COMMIT_MESSAGE" value="컨트롤러 분리" />
   </component>
 </project>
